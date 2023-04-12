@@ -1,13 +1,11 @@
 import React from "react";
-import Header from "../components/Header";
-import Content from "../components/Content";
+import Content from "./landing_page/Content";
 import "../index.css";
-import About from "../components/Phone";
+import About from "./landing_page/Phone";
 
 function LandingPage() {
   return (
     <>
-      <Header />
       <About />
       <Content />
     </>
