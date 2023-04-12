@@ -1,3 +1,4 @@
+import React from "react";
 import PhoneLogo from "../images/phone.svg";
 export default function Phone() {
   return (

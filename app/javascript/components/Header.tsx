@@ -1,7 +1,7 @@
-import React from 'react'
-import Logo from "../images/reeltime.svg";
-import MenuIcon from "../images/menu-2.svg";
-import ArrowIcon from "../images/arrow-big-right-lines-filled.svg";
+import React, { useState } from "react";
+import Logo from "./images/reeltime.svg";
+import MenuIcon from "./images/menu-2.svg";
+import ArrowIcon from "./images/arrow-big-right-lines-filled.svg";
 import Menu from "./Menu";
 
 function Header() {
