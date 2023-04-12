@@ -8,11 +8,24 @@ module.exports = {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
+    colors: {
+      'darkNavy': '#212841',
+      'navy': '#3538a4',
+      "normalBlue": '#0f63e4',
+      "lightBlue": '#A8DADC',
+      "White": '#F1FAEE',
+      "black": '#3538a4',
+      "gray": '#272c44'
     },
+    fontFamily: {
+      sans: ['Raleway', 'sans-serif'],
+      serif: ['Allura', 'serif'],
+    },
+      extend: {
+        padding: {
+          'vh': '20vh',
+        }
+      },
   },
   plugins: [
     require('@tailwindcss/forms'),
