@@ -1,6 +1,6 @@
 import React from "react";
-import Close from "../images/x.svg";
-import Logo from "../images/reeltime.svg";
+import Close from "./images/x.svg";
+import Logo from './images/logo.svg'
 
 type MenuProps = {
   onClose: () => void;

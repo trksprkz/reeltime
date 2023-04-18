@@ -1,6 +1,5 @@
 import React from "react";
-import "../index.css";
-import Crypto from "../../images/stock_content.svg";
+import Crypto from "../images/stock_content.svg";
 import AppStore from "../images/app-store.svg";
 import GooglePlay from "../images/google-play.svg";
 import ArrowDown from "../images/arrow-down.svg";

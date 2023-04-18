@@ -1,5 +1,5 @@
 import React from "react";
-import PhoneLogo from "../images/phone.svg";
+import PhoneLogo from '../images/phone.svg'
 export default function Phone() {
   return (
     <div className="bg-darkNavy w-screen h-screen">
@@ -30,7 +30,7 @@ export default function Phone() {
               <br />
               Always Wanted Is Here
             </h2>
-            <p className="mt-6 text-lg leading-8 text-White">
+             <p className="mt-6 text-lg leading-8 text-White">
               With AI the perfect time to is always just a click away!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
