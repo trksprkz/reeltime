@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+.mobile-menu-bg {
+        background: linear-gradient(197deg, #212841, #000000, #3538a4);
+        background-size: 600% 600%;
+
+        -webkit-animation: AnimationName 16s ease infinite;
+        -moz-animation: AnimationName 16s ease infinite;
+        -o-animation: AnimationName 16s ease infinite;
+        animation: AnimationName 16s ease infinite;
+    }
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:59% 0%}
+        50%{background-position:42% 100%}
+        100%{background-position:59% 0%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:59% 0%}
+        50%{background-position:42% 100%}
+        100%{background-position:59% 0%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:59% 0%}
+        50%{background-position:42% 100%}
+        100%{background-position:59% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:59% 0%}
+        50%{background-position:42% 100%}
+        100%{background-position:59% 0%}
+    }
+    @media  screen and (min-width: 960px) {
+      .crypto {
+        animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+        opacity: 1;
+    }
+    }
+    @keyframes wave {
+        0% {
+          margin-left: 0;
+        }
+        25% {
+          margin-left: -50px;
+        }
+        50% {
+          margin-left: -100px;
+        }
+        75% {
+          margin-left: -50px
+        }
+        100% {
+          margin-left: 0px;
+        }
+      }
+
+      @keyframes swell {
+        0%, 100% {
+          transform: translate3d(0,-25px,0);
+        }
+        50% {
+          transform: translate3d(0,5px,0);
+        }
+      }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
