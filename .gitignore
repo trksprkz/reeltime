@@ -37,7 +37,9 @@
 yarn-debug.log*
 .yarn-integrity
 
+config/webpacker.yml
+config/database.yml
+Procfile
+Procfile.dev
 /app/assets/builds/*
 !/app/assets/builds/.keep
-PROCFILE
-Procfile.dev
