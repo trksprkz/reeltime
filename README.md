@@ -5,11 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 3.1.2
 
-* System dependencies
+* System dependencies: Rails 7.0.4, pg 1.1
 
-* Configuration
+* Configuration: React_Rails
 
 * Database creation
 
