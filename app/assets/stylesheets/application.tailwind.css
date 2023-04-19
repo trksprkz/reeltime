@@ -65,6 +65,12 @@
           transform: translate3d(0,5px,0);
         }
       }
+
+      div[data-react-class="Header"] {
+        z-index: 1000000;
+        top: 0;
+        position: sticky;
+      }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
